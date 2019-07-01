@@ -1,4 +1,4 @@
-# DeePhage: a tool for identifying phages and plasmids from metagenomic fragments using deep learning
+# DeePhage: a tool for identifying temperate phage-derived and virulent phage-derived sequences from metavirome fragments using deep learning
 
 * [Introduction](#introduction)
 * [Version](#version)
