@@ -1,4 +1,4 @@
-# DeePhage: a tool for identifying phages and plasmids from metagenomic fragments using deep A tool for distinguish temperate phage-derived and virulent phage-derived sequence in metavirome data using deep learning
+# DeePhage: a tool for identifying phages and plasmids from metagenomic fragments using deep learning
 
 * [Introduction](#introduction)
 * [Version](#version)
@@ -19,7 +19,7 @@ DeePhage is designed to identify metavirome sequences as temperate phage-derived
 
 ## Requirements
 ------------
-### 1. To run the physical host version of PPR-Meta, you need to install:
+### 1. To run the physical host version of DeePhage, you need to install:
 + [Python 3.6.7](https://www.python.org/)
 + [numpy 1.16.4](http://www.numpy.org/)
 + [h5py 2.9.0](http://www.h5py.org/)
@@ -127,7 +127,7 @@ The installation of the virtual machine is much easier. Please refer to [Manual.
     
 ### 4. Run DeePhage in virtual machine
 
-  We recommend that non-computer professionals run DeePhage in this way. The virtual machine version of PPR-DeePhage run through the executable file (see item 1 above). Please refer to [Manual.pdf](http://cqb.pku.edu.cn/ZhuLab/PPR_DeePhage/Manual.pdf). 
+  We recommend that non-computer professionals run DeePhage in this way. The virtual machine version of PPR-DeePhage run through the executable file (see item 1 above). Please refer to [Manual.pdf](http://cqb.pku.edu.cn/ZhuLab/DeePhage/Manual.pdf). 
   
 ## Output
 
