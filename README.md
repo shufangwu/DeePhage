@@ -117,9 +117,9 @@ The installation of the virtual machine is much easier. Please refer to [Manual.
     
   Please remember to set the working path of MATLAB to DeePhage folder before running the programe.
   
-### 3. Run DeePhage with specified threshold
+### 3. Run DeePhage with specified cutoff
 
-  For each input sequence, DeePhage will output one scores (between 0 to 1), representing the lifestyle prediction score. The sequence with a score higher than 0.5 would be regarded as a virulent phage-derived fragment and the sequence with a score lower than 0.5 would be regarded as a temperate phage-derived fragment. Users can also specify a threshold. In this way, a sequence with a score between (0.5-threshold, 0.5+threshold) will be labelled as "uncertain". In general, with a higher threshold, the percentage of uncertain predictions will be higher while the remaining predictions will be more reliable. For example, if you want to get relatively reliable predictions in the file “example.fna”, you can take 0.3 as the threshold. Please execute:
+  For each input sequence, DeePhage will output one scores (between 0 to 1), representing the lifestyle prediction score. The sequence with a score higher than 0.5 would be regarded as a virulent phage-derived fragment and the sequence with a score lower than 0.5 would be regarded as a temperate phage-derived fragment. Users can also specify a cutoff. In this way, a sequence with a score between (0.5-cutoff, 0.5+cutoff) will be labelled as "uncertain". In general, with a higher cutoff, the percentage of uncertain predictions will be higher while the remaining predictions will be more reliable. For example, if you want to get relatively reliable predictions in the file “example.fna”, you can take 0.3 as the cutoff. Please execute:
   
     ./DeePhage example.fna result.csv 0.7 (by executable file)
     or
@@ -144,7 +144,7 @@ The content in `Header` column is the same with the header of corresponding sequ
 
 
 # Citation
-Shufang Wu, Zhencheng Fang, Jie Tan,..., and Huaiqiu Zhu. DeePhage: distinguish temperate phage-derived and virulent phage-derived sequence in metavirome data using deep learning. 
+Shufang Wu, Zhencheng Fang, Jie Tan, Mo Li, Congmin Xu, and Huaiqiu Zhu. DeePhage: distinguish temperate phage-derived and virulent phage-derived sequence in metavirome data using deep learning. 
 
 # Contact
 Any question, please do not hesitate to contact me: wu-shufang@pku.edu.cn
