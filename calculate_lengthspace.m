@@ -4,7 +4,7 @@ calculate = [1];
 i = 1;
 a = length;
     while a>unit
-        calculate = [calculate;(1+i*1800)];
+        calculate = [calculate;(1+i*unit)];
         a = length-i*unit;
         i = i+1;
     end
