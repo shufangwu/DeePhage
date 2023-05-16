@@ -12,7 +12,7 @@
 
 ## Introduction
 
-DeePhage is designed to identify metavirome sequences as temperate phage-derived and virulent phage-derived sequences. The program calculate a score reflecting the likelihood of each input fragment as temperate phage-derived and virulent phage-derived sequences. DeePhage can run either on the virtual machine or physical host. For non-computer professionals, we recommend running the virtual machine version of DeePhage on local PC. In this way, users do not need to install any dependency package. If GPU is available, you can also choose to run the physical host version. This version can automatically speed up with GPU and is more suitable to handle large scale data. The program is also available at http://cqb.pku.edu.cn/ZhuLab/DeePhage/.
+DeePhage is designed to identify metavirome sequences as temperate phage-derived and virulent phage-derived sequences. The program calculate a score reflecting the likelihood of each input fragment as temperate phage-derived and virulent phage-derived sequences. DeePhage can run either on the virtual machine or physical host. For non-computer professionals, we recommend running the virtual machine version of DeePhage on local PC. In this way, users do not need to install any dependency package. If GPU is available, you can also choose to run the physical host version. This version can automatically speed up with GPU and is more suitable to handle large scale data. The program is also available at http://cqb.pku.edu.cn/ZhuLab/DeePhage/. (The new website is available at http://cqb2.pku.edu.cn/ZhuLab/DeePhage)
 
 ## Version
 + DeePhage 1.0 (Tested on Ubuntu 16.04)
@@ -91,7 +91,7 @@ DeePhage is designed to identify metavirome sequences as temperate phage-derived
   
 ### 2. Virtual machine version
 
-The installation of the virtual machine is much easier. Please refer to [Manual.pdf](http://cqb.pku.edu.cn/ZhuLab/DeePhage/Manual.pdf) for a step by step guide with screenshot to see how to install the vertual machine. 
+The installation of the virtual machine is much easier. Please refer to [Manual.pdf](http://cqb2.pku.edu.cn/ZhuLab/DeePhage/Manual.pdf) for a step by step guide with screenshot to see how to install the vertual machine. 
 
 ## Usage
 
