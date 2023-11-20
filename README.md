@@ -12,7 +12,7 @@
 
 ## Introduction
 
-DeePhage is designed to identify metavirome sequences as temperate phage-derived and virulent phage-derived sequences. The program calculate a score reflecting the likelihood of each input fragment as temperate phage-derived and virulent phage-derived sequences. DeePhage can run either on the virtual machine or physical host. For non-computer professionals, we recommend running the virtual machine version of DeePhage on local PC. In this way, users do not need to install any dependency package. If GPU is available, you can also choose to run the physical host version. This version can automatically speed up with GPU and is more suitable to handle large scale data. The program is also available at http://cqb2.pku.edu.cn/ZhuLab/DeePhage.
+DeePhage is designed to identify metavirome sequences as temperate phage-derived and virulent phage-derived sequences. The program calculate a score reflecting the likelihood of each input fragment as temperate phage-derived and virulent phage-derived sequences. DeePhage can run either on the virtual machine or physical host. For non-computer professionals, we recommend running the virtual machine version of DeePhage on local PC. In this way, users do not need to install any dependency package. If GPU is available, you can also choose to run the physical host version. This version can automatically speed up with GPU and is more suitable to handle large scale data. The program with original data could be downloaded from [data.zip] (https://deephage.obs.ap-southeast-1.myhuaweicloud.com/data.zip).
 
 ## Version
 + DeePhage 1.0 (Tested on Ubuntu 16.04)
@@ -91,7 +91,7 @@ DeePhage is designed to identify metavirome sequences as temperate phage-derived
   
 ### 2. Virtual machine version
 
-The installation of the virtual machine is much easier. Please refer to [Manual.pdf](http://cqb2.pku.edu.cn/ZhuLab/DeePhage/Manual.pdf) for a step by step guide with screenshot to see how to install the vertual machine. 
+The installation of the virtual machine is much easier. Please refer to [Manual.pdf](https://deephage.obs.ap-southeast-1.myhuaweicloud.com/Manual.pdf) for a step by step guide with screenshot to see how to install the vertual machine. 
 
 ## Usage
 
@@ -127,7 +127,7 @@ The installation of the virtual machine is much easier. Please refer to [Manual.
     
 ### 4. Run DeePhage in virtual machine
 
-  We recommend that non-computer professionals run DeePhage in this way. The virtual machine version of PPR-DeePhage run through the executable file (see item 1 above). Please refer to [Manual.pdf](http://cqb.pku.edu.cn/ZhuLab/DeePhage/Manual.pdf). 
+  We recommend that non-computer professionals run DeePhage in this way. The virtual machine version of PPR-DeePhage run through the executable file (see item 1 above). Please refer to [Manual.pdf](https://deephage.obs.ap-southeast-1.myhuaweicloud.com/Manual.pdf). 
   
 ## Output
 
@@ -144,7 +144,7 @@ The content in `Header` column is the same with the header of corresponding sequ
 
 
 # Citation
-Shufang Wu, Zhencheng Fang, Jie Tan, Mo Li, Congmin Xu, and Huaiqiu Zhu. DeePhage: distinguish temperate phage-derived and virulent phage-derived sequence in metavirome data using deep learning. 
+Wu, S., Fang, Z., Tan, J., Li, M., Wang, C., Guo, Q., ... & Zhu, H. (2021). DeePhage: distinguishing virulent and temperate phage-derived sequences in metavirome data with a deep learning approach. GigaScience, 10(9), giab056.
 
 # Contact
 Any question, please do not hesitate to contact me: wu-shufang@pku.edu.cn
